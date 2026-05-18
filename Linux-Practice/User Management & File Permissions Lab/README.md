@@ -29,4 +29,4 @@ This project demonstrates Linux user management and file permission handling in 
 - ls -l
 
 ## Learning Outcome
-This lab improved understanding of Linux security, user management, and file permission concepts.
+- This lab improved understanding of Linux security, user management, and file permission concepts.
