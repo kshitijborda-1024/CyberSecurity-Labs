@@ -1,0 +1,55 @@
+# Title Page:
+- Prepared By: Kshitij
+- Topic: Linux Administration & Security Fundamentals
+- Date: 18 May, 2026
+
+# Objective:
+- The objective of this lab was to understand Linux user management, group management, and file permission concepts using Kali Linux. This practical also focused on implementing access control and basic Linux security practices.
+
+# Tools Used:
+- Kali Linux, Linux Terminal & VirtualBox
+
+# Lab Environment:
+- Host OS: Windows 11
+- Virtualization Software: VirtualBox
+- Guest OS: Kali Linux
+- Environment Type: Local Virtual Lab
+
+# Practical Steps:
+## Step 1 — Create User
+- Command: sudo adduser sampleuser
+- Explanation: This command was used to create a new Linux user named sampleuser.
+## Step 2 — Create Group
+- Command: sudo groupadd team_test
+- Explanation: This command created a new group.
+## Step 3 — Add User to Group
+- Command: sudo usermod -aG team_test sampleuser
+- Explanation: The user sampleuser was added to the team_test group.
+## Step 4 — Create New File
+- Command: touch file_permission.txt & touch file_permission2.txt
+- Explanation: A new file named file_permissions was created for permission testing.
+## Step 5 — Configure Permissions
+- Command: chmod 764 file_permission.txt & chmod 777 file_permission2.txt
+- Explanation: Permissions were configured to allow full access to owner and group while restricting others.
+
+# Commands Used
+| Command   | Purpose            |
+| --------  | ------------------ |
+| adduser   | Create user        |
+| groupadd  | Create group       |
+| usermod   | Add user to group  |
+| chmod     | Change permissions |
+| ls -l     | View permissions   |
+
+# Screenshots
+- All screenshots are added in Screenshot Section.
+- With: clear screenshots, terminal outputs & permission verification
+
+# Results
+- The lab was completed successfully. Linux users and groups were created, file ownership was configured, and permissions were applied correctly. Access control was verified using different user accounts.
+
+# Conclusion
+- This practical improved understanding of Linux administration, user management, group handling, and file permissions. The lab also provided hands-on experience with Linux security fundamentals and access control mechanisms used in cyber security environments.
+
+#Future Improvements
+- Future Improvements: Learn advanced Linux permissions, Practice ACL configuration, Explore Linux hardening techniques, Automate user management using Bash scripting
