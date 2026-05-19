@@ -33,7 +33,7 @@ Practice Linux file management, navigation, and process monitoring.
 - Used to rename files.
 
 ## 10. top
-Used to display top running processes in system.
+- Used to display top running processes in system.
 
 # What I Learned
 - Linux file management
