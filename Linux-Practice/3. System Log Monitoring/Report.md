@@ -23,9 +23,9 @@ The journal command was used to display systemd logs and monitor system events g
 
 ## 4.2 Monitoring Logs in Real Time
 ### Command Used
-sudo tail -f /var/log/syslog
+sudo tail term.log
 ### Description
-The `tail -f` command was used to monitor the syslog file in real time and observe system activity as new log entries were generated.
+The `tail` command was used to monitor the syslog file in bottom level and observe system activity as new log entries were generated.
 
 ## 4.3 Monitoring Authentication Logs
 ### Command Used
